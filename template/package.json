@@ -29,8 +29,7 @@
     "vue-router": "^3.0.1"{{/router}},
     "vuex":"^3.0.1",
     "axios": "^0.18.0"{{#xmui}},
-    "x-m-ui": "^0.1.25"{{/xmui}}{{#lodash}},
-    "lodash": "^4.17.10"{{/lodash}}{{#dayjs}},
+    "x-m-ui": "^0.1.25"{{/xmui}}{{#dayjs}},
     "dayjs": "^1.5.16"{{/dayjs}}
   },
   "devDependencies": {

@@ -11,14 +11,9 @@ import router from './router'
 import axios from 'axios'
 
 {{#vuex}}
-import vuex from 'vuex'  
-Vue.use(vuex)
+import Vuex from 'vuex'
+Vue.use(Vuex)
 {{/vuex}}
-
-{{#lodash}}
-import lodash from 'lodash'  
-Vue.use(lodash)
-{{/lodash}}
 
 {{#dayjs}}
 import dayjs from 'dayjs'  

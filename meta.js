@@ -79,11 +79,6 @@ module.exports = {
       type: 'confirm',
       message: 'Install vuex?',
     },
-    lodash: {
-      when: 'isNotTest',
-      type: 'confirm',
-      message: 'Install lodash?',
-    },
     dayjs: {
       when: 'isNotTest',
       type: 'confirm',
