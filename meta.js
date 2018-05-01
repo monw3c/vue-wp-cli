@@ -74,6 +74,21 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    vuex: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install vuex?',
+    },
+    lodash: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install lodash?',
+    },
+    dayjs: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install day.js?',
+    },
     xmui: {
       when: 'isNotTest',
       type: 'confirm',

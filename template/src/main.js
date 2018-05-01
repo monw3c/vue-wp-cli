@@ -7,12 +7,32 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+
 import axios from 'axios'
+
+{{#vuex}}
+import vuex from 'vuex'  
+Vue.use(vuex)
+{{/vuex}}
+
+{{#lodash}}
+import lodash from 'lodash'  
+Vue.use(lodash)
+{{/lodash}}
+
+{{#dayjs}}
+import dayjs from 'dayjs'  
+Vue.use(dayjs)
+{{/dayjs}}
+
 {{#xmui}}
 import 'x-m-ui/package/xmui.min.css'  
 import xmui from 'x-m-ui'  
 Vue.use(xmui)
 {{/xmui}}
+
+
+
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
