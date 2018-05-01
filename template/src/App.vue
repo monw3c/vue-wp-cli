@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <div id="tips">通用工程模板</div>
     {{#router}}
     <router-view/>
     {{else}}

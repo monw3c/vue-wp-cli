@@ -74,6 +74,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    xmui: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install XMUI?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
