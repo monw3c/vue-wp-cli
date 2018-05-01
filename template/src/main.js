@@ -8,11 +8,11 @@ import App from './App'
 import router from './router'
 {{/router}}
 import axios from 'axios'
-{{#router}}
+{{#xmui}}
 import 'x-m-ui/package/xmui.min.css'  
 import xmui from 'x-m-ui'  
 Vue.use(xmui)
-{{/router}}
+{{/xmui}}
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
