@@ -90,6 +90,14 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  mounted(){
+    this.$http.get('https://api.douban.com/v2/book/1220562').then(response => {
+    // success callback
+      console.log(response)
+    }, response => {
+        // error callback
+    })
   }
 }
 </script>
