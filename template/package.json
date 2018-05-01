@@ -27,8 +27,7 @@
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
     "vue-router": "^3.0.1"{{/router}},
-    "axios": "^0.18.0",
-    {{#xmui}}
+    "axios": "^0.18.0"{{#xmui}},
     "x-m-ui": "^0.1.25"
     {{/xmui}}
   },
