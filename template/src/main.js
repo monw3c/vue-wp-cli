@@ -17,7 +17,7 @@ Vue.use(Vuex)
 
 {{#dayjs}}
 import dayjs from 'dayjs'  
-Vue.use(dayjs)
+Vue.prototype.$day = dayjs
 {{/dayjs}}
 
 {{#xmui}}
