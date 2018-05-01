@@ -77,7 +77,7 @@ module.exports = {
     xmui: {
       when: 'isNotTest',
       type: 'confirm',
-      message: 'Install XMUI?',
+      message: 'Install XMUI, which is a general UI components library?',
     },
     lint: {
       when: 'isNotTest',
