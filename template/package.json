@@ -30,7 +30,9 @@
     "vuex":"^3.0.1"{{/vuex}},
     "axios": "^0.18.0"{{#xmui}},
     "x-m-ui": "^0.1.25"{{/xmui}}{{#dayjs}},
-    "dayjs": "^1.5.16"{{/dayjs}}
+    "dayjs": "^1.5.16"{{/dayjs}}{{#fastclick}},
+    "fastclick": "^1.0.6"
+    {{/fastclick}}
   },
   "devDependencies": {
     {{#lint}}

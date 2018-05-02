@@ -87,7 +87,7 @@ module.exports = {
     fastclick: {
       when: 'isNotTest',
       type: 'confirm',
-      message: 'Install fastclick.js, which is handler mobile browsers will wait approximately 300ms from the time that you tap the button to fire the click event?',
+      message: 'Install fastclick.js, which is handler mobile browsers `300ms problem`?',
     },
     xmui: {
       when: 'isNotTest',
