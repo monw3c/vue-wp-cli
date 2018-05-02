@@ -12,11 +12,6 @@ import store from './store/'
 {{/vuex}}
 import axios from 'axios'
 
-{{#vuex}}
-import Vuex from 'vuex'
-Vue.use(Vuex)
-{{/vuex}}
-
 {{#dayjs}}
 import dayjs from 'dayjs'  
 Vue.prototype.$day = dayjs
@@ -28,7 +23,10 @@ import xmui from 'x-m-ui'
 Vue.use(xmui)
 {{/xmui}}
 
-
+{{#fastclick}}
+import FastClick from 'fastclick'
+FastClick.attach(document.body)
+{{/fastclick}}
 
 Vue.prototype.$http = axios
 Vue.config.productionTip = false

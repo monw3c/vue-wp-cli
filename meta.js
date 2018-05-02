@@ -84,6 +84,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install day.js?',
     },
+    fastclick: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install fastclick.js, which is handler mobile browsers will wait approximately 300ms from the time that you tap the button to fire the click event?',
+    },
     xmui: {
       when: 'isNotTest',
       type: 'confirm',
