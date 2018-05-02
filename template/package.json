@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "vue": "^2.5.2"{{#router}},
-    "vue-router": "^3.0.1"{{/router}},
-    "vuex":"^3.0.1",
+    "vue-router": "^3.0.1"{{/router}}{{#vuex}},
+    "vuex":"^3.0.1"{{/vuex}},
     "axios": "^0.18.0"{{#xmui}},
     "x-m-ui": "^0.1.25"{{/xmui}}{{#dayjs}},
     "dayjs": "^1.5.16"{{/dayjs}}
