@@ -7,7 +7,9 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
-
+{{#vuex}}
+import store from './store/'
+{{/vuex}}
 import axios from 'axios'
 
 {{#vuex}}
@@ -37,6 +39,9 @@ new Vue({
   {{#router}}
   router,
   {{/router}}
+  {{#vuex}}
+  store,
+  {{/vuex}}
   {{#if_eq build "runtime"}}
   render: h => h(App)
   {{/if_eq}}
