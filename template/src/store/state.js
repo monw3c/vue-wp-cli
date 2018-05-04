@@ -3,7 +3,7 @@
  * vuex 操作顺序：state.js -> mutations-type.js -> mutations.js -> getters.js
  */
 const state = {
-  searchList: []
-}
+  searchList: [],
+};
 
-export default state
+export default state;
