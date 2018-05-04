@@ -11,17 +11,19 @@
         </a>
       </li>
     </ul>
+    {{#xmui}}
     <xm-button type="primary" icon="xm__icon--checked" >primary按钮</xm-button>
+    {{/xmui}}
   </div>
 </template>
 
 <script>
-import xmButton from 'x-m-ui/package/comps/components/button';
-
+{{#xmui}}import xmButton from 'x-m-ui/package/comps/components/button';
+{{/xmui}}
 export default {
   name: 'HelloWorld',
   components: {
-    xmButton,
+    {{#xmui}}xmButton,{{/xmui}}
   },
   data() {
     return {
