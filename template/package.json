@@ -29,11 +29,10 @@
     "vue-router": "^3.0.1"{{/router}}{{#vuex}},
     "vuex":"^3.0.1"{{/vuex}},
     "axios": "^0.18.0"{{#xmui}},
-    "x-m-ui": "^0.1.25"{{/xmui}}{{#dayjs}},
+    "x-m-ui": "^0.1.28"{{/xmui}}{{#dayjs}},
     "dayjs": "^1.5.16"{{/dayjs}}{{#fastclick}},
     "fastclick": "^1.0.6",
     {{/fastclick}}
-    "lib-flexible": "^0.3.2"
   },
   "devDependencies": {
     {{#lint}}
@@ -125,7 +124,6 @@
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0",
-    "px2rem-loader": "^0.1.9",
     "sass-loader": "^7.0.1",
     "scss": "^0.2.4",
     "scss-loader": "0.0.1",
