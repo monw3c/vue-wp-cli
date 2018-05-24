@@ -29,9 +29,9 @@
     "vue-router": "^3.0.1"{{/router}}{{#vuex}},
     "vuex":"^3.0.1"{{/vuex}},
     "axios": "^0.18.0"{{#xmui}},
-    "x-m-ui": "^0.1.31"{{/xmui}}{{#dayjs}},
+    "x-m-ui": "*"{{/xmui}}{{#dayjs}},
     "dayjs": "^1.5.16"{{/dayjs}}{{#fastclick}},
-    "fastclick": "^1.0.6",
+    "fastclick": "^1.0.6"
     {{/fastclick}}
   },
   "devDependencies": {
